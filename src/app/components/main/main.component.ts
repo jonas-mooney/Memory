@@ -1,8 +1,9 @@
 import { Component, signal, computed } from '@angular/core';
+import { PanelComponent } from '../panel/panel.component';
 
 @Component({
   selector: 'app-main',
-  imports: [],
+  imports: [PanelComponent],
   templateUrl: './main.component.html',
   styleUrl: './main.component.scss'
 })

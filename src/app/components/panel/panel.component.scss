@@ -1,0 +1,16 @@
+div {
+    display: flex;
+    // flex-wrap: wrap;
+    width: 45em;
+    height: 45em;
+    background-color: aqua;
+
+
+    .button {
+        width: 200px;
+        background-color: beige;
+        min-height: 10em;
+        min-width: 10em;
+        margin: 20px;
+    }
+}
